@@ -1,0 +1,51 @@
+.Text{
+    -fx-background-radius: 15;
+    -fx-border-width: 1;
+    -fx-border-radius: 12;
+    -fx-border-color: black;
+}
+.buttons{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-background-radius: 15;
+
+}
+.buttons:hover{
+    -fx-background-color: rgba(0, 0, 0, 0.62);
+    -fx-text-fill: white;
+    -fx-background-radius: 15;
+
+}
+#startListeningButton:hover{
+    -fx-background-color: rgba(0, 0, 0, 0.09);
+
+}
+
+#startListeningButton{
+    -fx-background-color:  white;
+    -fx-text-fill: black;
+    -fx-border-radius: 15;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+#sendButton{
+    -fx-shape:  "M 16 464 L 496 256 L 16 48 L 16 208 L 336 256 L 16 304 Z";
+    -fx-background-color: black;
+}
+#sendButton:hover{
+    -fx-shape:  "M 16 464 L 496 256 L 16 48 L 16 208 L 336 256 L 16 304 Z";
+    -fx-background-color: rgba(0, 0, 0, 0.62);
+}
+.list-cell {
+    -fx-font-size: 15;
+}
+.list-cell:selected {
+    -fx-background-color: black; /* Set the background color of the selected cell */
+    -fx-text-fill: white; /* Set the text color of the selected cell */
+}
+.list-cell{
+    -fx-wrap-text: true;
+}
+.list-view{
+    -fx-wrap-text: true;
+}
